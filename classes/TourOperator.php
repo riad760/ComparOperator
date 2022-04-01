@@ -77,6 +77,5 @@ class TourOperator {
     public function setIs_premium ($isPremium){
         $this->isPremium = $isPremium;
     }
-
     
 }
