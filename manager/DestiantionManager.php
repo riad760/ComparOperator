@@ -26,7 +26,7 @@ class DestinationManager {
     ]);
   }
 
-  /* RECUPERER DESTI POUR LES AFFICHER */
+  /* recuperer les destiantions puis les afficher */
 
   public function getList()
   {
@@ -44,7 +44,7 @@ class DestinationManager {
     return $desti;
   }
 
-    /* JOIN DESTINATIONS W/ TO */
+    /* Ajouter les destinations */
 
   public function getDestibyTo(Destination $destination)
   {
@@ -76,7 +76,7 @@ class DestinationManager {
     return $destinationCollection;
   }
 
-  /* METHODE POUR PAS AVOIR DE DOUBLON */
+  /* Méthode pour eviter d'avoir des doublons*/
 
   public function getListGroupByName()
   {

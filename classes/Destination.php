@@ -13,6 +13,7 @@ class Destination {
 
     public function __construct(array $donnees){
         $this->hydrate($donnees);
+    
     }
 
     // L'Hydratation
@@ -56,11 +57,11 @@ class Destination {
         $this->price = $price;
     }
 
-    public function getIdTourOperator (){
+    public function getId_Tour_Operator (){
         return $this->id_tour_operator;
     }
 
-    public function setId_tour_operator ($id_tour_operator){
+    public function setId_Tour_Operator ($id_tour_operator){
         $this->id_tour_operator = $id_tour_operator;
     }
 
