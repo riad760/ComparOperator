@@ -29,7 +29,6 @@ class TourOperator {
  
 // Getter Setter
 
-
     public function getId (){
         return $this->id;
     }
