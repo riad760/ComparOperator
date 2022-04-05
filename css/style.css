@@ -5,20 +5,13 @@ height: 100vh;
  
 
 }
-#btn li{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    
-
-}
-footer{
+#card{
+    margin-top: 10px;
+    padding: auto;
     display: block;
-    align-items: flex-end ;
     justify-content: space-between;
 }
 
-body div  ul li a {
-    transform: scale(1.1);
 
-}
+                           
+
